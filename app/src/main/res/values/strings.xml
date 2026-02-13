@@ -4,4 +4,44 @@
     <string name="profile_image">profile image of the user</string>
     <string name="full_name">Iván Jesús Vázquez Rivera</string>
     <string name="btn_sel_country">Seleccionar país</string>
+    <string name="txtCountryNameTest">México</string>
+    <string name="example">Ejemplo</string>
+    <string name="txt_edu_info">
+        Todas las mañanas\n
+        Que entra por mi ventana el Señor Sol (Uh)\n
+        Doy gracias a Dios\n
+        Por otro día más (Ah ah)\n
+        Hoy como otros días\n
+        Yo seguiré tratando ser mejor (Uh)\n
+        Y sonriendo haré\n
+        Las cosas con amor (Oh oh)\n
+        Buenos días, alegría (Buenos días, Señor Sol)\n
+        Buenos días al amor (Bueno días ah ah)\n
+        Buenos días a la vida (Buenos días, Señor Sol)\n
+        Buenos días, Señor Sol (Bueno días ah ah)\n
+        Yo seguiré tratando ser mejor\n
+        Yo seguiré tratando ser mejor\n
+        Buenos días (Bueno días ah ah)\n
+        Todas las mañanas\n
+        Que entra por mi ventana el Señor Sol (Uh)\n
+        Doy gracias a Dios\n
+        Por otro día más (Ah ah)\n
+        Hoy como otros días\n
+        Yo seguiré tratando ser mejor (Uh)\n
+        Y sonriendo haré\n
+        Las cosas con amor (Oh oh)\n
+        Buenos días, alegría (Bueno días, Señor Sol)\n
+        Buenos días al amor (Bueno días ah ah)
+        Buenos días a la vida (Bueno días, Señor Sol)
+        Buenos días, señor sol (Bueno días ah ah)
+        Yo seguiré tratando ser mejor
+        Yo seguiré tratando ser mejor
+        Buenos días (Bueno días ah ah)
+        Yo seguiré tratando ser mejor
+        Yo seguiré tratando ser mejor
+        Buenos días (Bueno días ah ah)
+        (Bueno días ah ah)
+        (Bueno días ah ah)
+        (Bueno días ah ah ahh)
+    </string>
 </resources>
