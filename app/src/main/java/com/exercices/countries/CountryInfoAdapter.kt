@@ -3,7 +3,6 @@ package com.exercices.countries
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.InputBinding
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -12,8 +11,8 @@ class CountryInfoAdapter (private val countryInfo: List<CountryModel>) : Recycle
         parent: ViewGroup,
         viewType: Int
     ): CountryViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.country_info, parent, false)
-        return CountryViewHolder(view)
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.country_info, parent, false)
+        return CountryViewHolder(itemView)
     }
 
     override fun onBindViewHolder(holder: CountryViewHolder, position: Int) {

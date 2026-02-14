@@ -12,7 +12,8 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/example"
         android:textAlignment="viewStart"
-        android:textSize="24sp">
+        android:textSize="24sp"
+        android:layout_marginBottom="14dp">
     </TextView>
 
     <TextView
