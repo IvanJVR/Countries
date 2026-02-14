@@ -2,12 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framePersonalInfo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="40dp"
-    android:paddingBottom="40dp"
+    android:background="#FFFFFF"
     android:paddingLeft="35dp"
+    android:paddingTop="40dp"
     android:paddingRight="35dp"
+    android:paddingBottom="40dp"
     tools:context=".PersonalInfoFragment">
 
     <ImageView
@@ -15,10 +17,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/profile_image"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:src="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars[0]" />
 
     <TextView
         android:id="@+id/txtName"
@@ -28,6 +30,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/full_name"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
@@ -38,17 +41,25 @@
         android:layout_height="0dp"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="25dp"
-        app:layout_constraintTop_toBottomOf="@+id/txtName"
         app:layout_constraintBottom_toTopOf="@+id/btnNavList"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtName">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_edu_info"
+            android:textColor="@color/black"
+            tools:text="@string/txt_edu_info" />
     </ScrollView>
 
     <Button
         android:id="@+id/btnNavList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/btn_sel_country"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:text="@string/btn_sel_country"></Button>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
