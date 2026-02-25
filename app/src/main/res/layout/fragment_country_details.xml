@@ -5,22 +5,22 @@
     android:id="@+id/frameCountryDetails"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:paddingLeft="35dp"
     android:paddingTop="40dp"
     android:paddingRight="35dp"
     android:paddingBottom="40dp"
-    tools:context=".CountryDetailsFragment">
+    tools:context=".ui.fragment.CountryDetailsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rViewCountryDetails"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/country_info">
-    </androidx.recyclerview.widget.RecyclerView>
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/country_info"></androidx.recyclerview.widget.RecyclerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

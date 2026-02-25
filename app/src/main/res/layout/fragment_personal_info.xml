@@ -10,7 +10,7 @@
     android:paddingTop="40dp"
     android:paddingRight="35dp"
     android:paddingBottom="40dp"
-    tools:context=".PersonalInfoFragment">
+    tools:context=".ui.fragment.PersonalInfoFragment">
 
     <ImageView
         android:id="@+id/imgProfile"

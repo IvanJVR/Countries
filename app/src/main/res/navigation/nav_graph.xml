@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/personalInfoFragment"
-        android:name="com.exercices.countries.PersonalInfoFragment"
+        android:name="com.exercices.countries.ui.fragment.PersonalInfoFragment"
         android:label="fragment_personal_info"
         tools:layout="@layout/fragment_personal_info" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/countryListFragment"
-        android:name="com.exercices.countries.CountryListFragment"
+        android:name="com.exercices.countries.ui.fragment.CountryListFragment"
         android:label="fragment_country_list"
         tools:layout="@layout/fragment_country_list" >
         <action
@@ -25,7 +25,11 @@
     </fragment>
     <fragment
         android:id="@+id/countryDetailsFragment"
-        android:name="com.exercices.countries.CountryDetailsFragment"
+        android:name="com.exercices.countries.ui.fragment.CountryDetailsFragment"
         android:label="fragment_country_details"
-        tools:layout="@layout/fragment_country_details" />
+        tools:layout="@layout/fragment_country_details" >
+        <argument
+            android:name="countryName"
+            app:argType="string" />
+    </fragment>
 </navigation>

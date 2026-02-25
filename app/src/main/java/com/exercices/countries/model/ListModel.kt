@@ -1,4 +1,4 @@
-package com.exercices.countries
+package com.exercices.countries.model
 
 data class ListModel (
     val countryName: String
